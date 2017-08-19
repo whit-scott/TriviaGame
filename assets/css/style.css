@@ -1,0 +1,32 @@
+body {
+	background-color: green;
+}
+
+button {
+	width: 75%;
+	height: 50px;
+	margin: 0 10%;
+	float: left;
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: red;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+img {
+	height: 500px;
+	width: 100%;
+}
+
+h1, h2, h3, .question {
+	text-align: center;
+}
